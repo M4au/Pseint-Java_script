@@ -1,0 +1,22 @@
+// Actividad#17
+// Elaborar un programa que me muestre el significado de aniversario de cada decada hasta los 60.
+// Entrada: decada 
+// Proceso: Segun decada Hacer
+// Salida: "Decada no existente"
+Proceso Principal
+	Definir decada  como entero ;
+	
+	Escribir " Digite una decada (10-60):" ;
+	Leer decada ; 
+	Segun decada Hacer
+			10: Escribir " Boda de hojalata ";
+			20: Escribir " Boda de porcelana ";
+			30: Escribir " Boda de Perlas ";
+			40: Escribir " Boda de rubi ";
+			50: Escribir " Boda de oro ";
+			60: Escribir " Boda de diamante   ";
+			
+		De Otro Modo:
+			Escribir " Decada no exitente  :";
+	FinSegun
+FinProceso

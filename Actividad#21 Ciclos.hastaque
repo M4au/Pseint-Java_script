@@ -1,0 +1,21 @@
+//Actividad #21
+//  Ciclos hasta que 
+// Entrada: i 
+// Proceso: Repetir Escribir i Hasta Que i>10
+
+
+Proceso Ciclos 
+	Definir i como entero; 
+	i <- 1 ;
+	
+	Repetir
+		Escribir i ; 
+		i <- i + 1;
+	Hasta Que i>10
+	
+	
+	
+	
+	
+	
+FinProceso
